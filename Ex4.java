@@ -8,13 +8,13 @@ public class Ex4{
         System.out.print("> ");
         name=sc.next();
         System.out.println("Hello, "+name+"!");
-        Tossing tos=new Tossing(name);
+        Tos tos=new Tos(name);
         tos.TOS();
         tos.print();
     }
 }
 
-class Tossing{
+class Tos{
     private String name;
     private int cnt0=0;
     private int cnt1=0;
